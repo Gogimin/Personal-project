@@ -239,7 +239,7 @@ export default function About() {
                       <p className="text-lg text-orange-700 font-bold">2025.09 • KDT 해커톤 수상작</p>
                     </div>
                     <div className="mb-6">
-                      <p className="text-lg text-gray-700 font-semibold mb-3">🎯 수상 프로젝트: "고향으로 ON - AI 정착 코디네이터"</p>
+                      <p className="text-lg text-gray-700 font-semibold mb-3">🎯 수상 프로젝트: &ldquo;고향으로 ON - AI 정착 코디네이터&rdquo;</p>
                       <div className="space-y-2">
                         <div className="flex items-center">
                           <span className="text-green-500 mr-2">✅</span>

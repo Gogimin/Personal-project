@@ -102,7 +102,7 @@ export default function Portfolio() {
           </h1>
           <p className="text-2xl font-bold text-gray-800 mb-6">
             <span className="bg-gradient-to-r from-cyan-600 to-blue-600 bg-clip-text text-transparent">
-              "아이디어를 현실로 만드는 개발자의 여정"
+              &ldquo;아이디어를 현실로 만드는 개발자의 여정&rdquo;
             </span>
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-lg font-semibold">
