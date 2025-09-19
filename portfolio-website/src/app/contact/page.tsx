@@ -1,4 +1,5 @@
 import Layout from '@/components/Layout';
+import ContactForm from '@/components/ContactForm';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -202,74 +203,7 @@ export default function Contact() {
                       </p>
                     </div>
 
-                    <form className="flex flex-col flex-1">
-                      <div className="space-y-5 flex-1">
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                          <div>
-                            <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                              이름 *
-                            </label>
-                            <input
-                              type="text"
-                              id="name"
-                              name="name"
-                              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
-                              placeholder="성함을 입력해주세요"
-                            />
-                          </div>
-                          <div>
-                            <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                              이메일 *
-                            </label>
-                            <input
-                              type="email"
-                              id="email"
-                              name="email"
-                              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
-                              placeholder="example@email.com"
-                            />
-                          </div>
-                        </div>
-
-                        <div>
-                          <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-                            제목 *
-                          </label>
-                          <input
-                            type="text"
-                            id="subject"
-                            name="subject"
-                            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
-                            placeholder="프로젝트 협업 제안, 기술 상담 등"
-                          />
-                        </div>
-
-                        <div className="flex-1">
-                          <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                            메시지 *
-                          </label>
-                          <textarea
-                            id="message"
-                            name="message"
-                            className="w-full h-32 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none"
-                            placeholder="상세한 내용을 작성해주세요..."
-                          ></textarea>
-                        </div>
-                      </div>
-
-                      <div className="mt-6 pt-4 border-t border-gray-100">
-                        <button
-                          type="submit"
-                          className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center"
-                        >
-                          <span className="mr-2">📤</span>
-                          메시지 보내기
-                        </button>
-                        <p className="text-xs text-gray-500 text-center mt-3">
-                          보통 24시간 이내에 답변드립니다
-                        </p>
-                      </div>
-                    </form>
+                    <ContactForm />
                   </div>
                 </div>
               </div>
