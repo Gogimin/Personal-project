@@ -44,3 +44,7 @@ next-env.d.ts
 ../CLAUDE.md
 ../TASK.md
 ../.claude/
+
+.vercel
+.netlify
+settings.local.json
