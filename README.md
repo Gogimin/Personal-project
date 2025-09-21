@@ -3,7 +3,7 @@
 ![Next.js](https://img.shields.io/badge/Next.js-15.5.3-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
 > **AI/ML 엔지니어 김지민의 개인 포트폴리오 웹사이트**
 > 수학과 학생이자 AI/데이터 분야 개발자 지망생의 포트폴리오 사이트
@@ -31,7 +31,7 @@
 ### Development & Deployment
 - **Package Manager**: npm
 - **Build**: Next.js Static Site Generation (SSG)
-- **Deployment**: Vercel Platform
+- **Deployment**: Netlify Platform
 - **Version Control**: Git & GitHub
 
 ## 📱 라이브 데모
@@ -68,8 +68,8 @@ npm start
 # 린트 검사
 npm run lint
 
-# Vercel 배포
-npx vercel --prod
+# Netlify 배포
+netlify deploy --prod
 ```
 
 ## 📁 프로젝트 구조

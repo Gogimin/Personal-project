@@ -21,6 +21,11 @@ export const metadata: Metadata = {
   keywords: ["개발자", "포트폴리오", "웹개발", "React", "Next.js", "TypeScript", "프론트엔드"],
   authors: [{ name: "개발자 이름" }],
   creator: "개발자 이름",
+  icons: {
+    icon: "/images/Favicon.png",
+    shortcut: "/images/Favicon.png",
+    apple: "/images/Favicon.png",
+  },
   openGraph: {
     type: "website",
     locale: "ko_KR",
