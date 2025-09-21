@@ -22,8 +22,8 @@ export const metadata: Metadata = {
   authors: [{ name: "개발자 이름" }],
   creator: "개발자 이름",
   icons: {
-    icon: "/images/Favicon.png",
-    shortcut: "/images/Favicon.png",
+    icon: "/images/favicon.ico",
+    shortcut: "/images/favicon.ico",
     apple: "/images/Favicon.png",
   },
   openGraph: {
