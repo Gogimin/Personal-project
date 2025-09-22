@@ -309,6 +309,14 @@ export default function About() {
                     </div>
                   </div>
                   <div className="flex justify-between items-center">
+                    <span className="text-gray-600">LangChain</span>
+                    <div className="flex space-x-1">
+                      {[...Array(5)].map((_, i) => (
+                        <div key={i} className={`w-3 h-3 rounded-full ${i < 5 ? 'bg-blue-500' : 'bg-gray-200'}`}></div>
+                      ))}
+                    </div>
+                  </div>
+                  <div className="flex justify-between items-center">
                     <span className="text-gray-600">Scikit-learn</span>
                     <div className="flex space-x-1">
                       {[...Array(5)].map((_, i) => (
@@ -321,14 +329,6 @@ export default function About() {
                     <div className="flex space-x-1">
                       {[...Array(5)].map((_, i) => (
                         <div key={i} className={`w-3 h-3 rounded-full ${i < 4 ? 'bg-blue-500' : 'bg-gray-200'}`}></div>
-                      ))}
-                    </div>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-gray-600">LangChain</span>
-                    <div className="flex space-x-1">
-                      {[...Array(5)].map((_, i) => (
-                        <div key={i} className={`w-3 h-3 rounded-full ${i < 5 ? 'bg-blue-500' : 'bg-gray-200'}`}></div>
                       ))}
                     </div>
                   </div>
@@ -348,23 +348,7 @@ export default function About() {
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">🌐 Frontend</h3>
                 <div className="space-y-3">
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">React Native</span>
-                    <div className="flex space-x-1">
-                      {[...Array(5)].map((_, i) => (
-                        <div key={i} className={`w-3 h-3 rounded-full ${i < 3 ? 'bg-green-500' : 'bg-gray-200'}`}></div>
-                      ))}
-                    </div>
-                  </div>
-                  <div className="flex justify-between items-center">
                     <span className="text-gray-600">Streamlit</span>
-                    <div className="flex space-x-1">
-                      {[...Array(5)].map((_, i) => (
-                        <div key={i} className={`w-3 h-3 rounded-full ${i < 4 ? 'bg-green-500' : 'bg-gray-200'}`}></div>
-                      ))}
-                    </div>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-gray-600">JavaScript</span>
                     <div className="flex space-x-1">
                       {[...Array(5)].map((_, i) => (
                         <div key={i} className={`w-3 h-3 rounded-full ${i < 4 ? 'bg-green-500' : 'bg-gray-200'}`}></div>
@@ -380,10 +364,26 @@ export default function About() {
                     </div>
                   </div>
                   <div className="flex justify-between items-center">
+                    <span className="text-gray-600">React Native</span>
+                    <div className="flex space-x-1">
+                      {[...Array(5)].map((_, i) => (
+                        <div key={i} className={`w-3 h-3 rounded-full ${i < 3 ? 'bg-green-500' : 'bg-gray-200'}`}></div>
+                      ))}
+                    </div>
+                  </div>
+                  <div className="flex justify-between items-center">
                     <span className="text-gray-600">Expo</span>
                     <div className="flex space-x-1">
                       {[...Array(5)].map((_, i) => (
                         <div key={i} className={`w-3 h-3 rounded-full ${i < 3 ? 'bg-green-500' : 'bg-gray-200'}`}></div>
+                      ))}
+                    </div>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-600">JavaScript</span>
+                    <div className="flex space-x-1">
+                      {[...Array(5)].map((_, i) => (
+                        <div key={i} className={`w-3 h-3 rounded-full ${i < 2 ? 'bg-green-500' : 'bg-gray-200'}`}></div>
                       ))}
                     </div>
                   </div>
@@ -403,18 +403,18 @@ export default function About() {
                     </div>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">FastAPI</span>
-                    <div className="flex space-x-1">
-                      {[...Array(5)].map((_, i) => (
-                        <div key={i} className={`w-3 h-3 rounded-full ${i < 3 ? 'bg-purple-500' : 'bg-gray-200'}`}></div>
-                      ))}
-                    </div>
-                  </div>
-                  <div className="flex justify-between items-center">
                     <span className="text-gray-600">MySQL</span>
                     <div className="flex space-x-1">
                       {[...Array(5)].map((_, i) => (
                         <div key={i} className={`w-3 h-3 rounded-full ${i < 4 ? 'bg-purple-500' : 'bg-gray-200'}`}></div>
+                      ))}
+                    </div>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-600">FastAPI</span>
+                    <div className="flex space-x-1">
+                      {[...Array(5)].map((_, i) => (
+                        <div key={i} className={`w-3 h-3 rounded-full ${i < 3 ? 'bg-purple-500' : 'bg-gray-200'}`}></div>
                       ))}
                     </div>
                   </div>
@@ -442,15 +442,15 @@ export default function About() {
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">☁️ DevOps & Tools</h3>
                 <div className="space-y-3">
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">AWS EC2</span>
+                    <span className="text-gray-600">Git</span>
                     <div className="flex space-x-1">
                       {[...Array(5)].map((_, i) => (
-                        <div key={i} className={`w-3 h-3 rounded-full ${i < 3 ? 'bg-orange-500' : 'bg-gray-200'}`}></div>
+                        <div key={i} className={`w-3 h-3 rounded-full ${i < 4 ? 'bg-orange-500' : 'bg-gray-200'}`}></div>
                       ))}
                     </div>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">Docker</span>
+                    <span className="text-gray-600">AWS EC2</span>
                     <div className="flex space-x-1">
                       {[...Array(5)].map((_, i) => (
                         <div key={i} className={`w-3 h-3 rounded-full ${i < 3 ? 'bg-orange-500' : 'bg-gray-200'}`}></div>
@@ -461,7 +461,7 @@ export default function About() {
                     <span className="text-gray-600">GitHub Actions</span>
                     <div className="flex space-x-1">
                       {[...Array(5)].map((_, i) => (
-                        <div key={i} className={`w-3 h-3 rounded-full ${i < 2 ? 'bg-orange-500' : 'bg-gray-200'}`}></div>
+                        <div key={i} className={`w-3 h-3 rounded-full ${i < 3 ? 'bg-orange-500' : 'bg-gray-200'}`}></div>
                       ))}
                     </div>
                   </div>
@@ -469,15 +469,15 @@ export default function About() {
                     <span className="text-gray-600">Nginx</span>
                     <div className="flex space-x-1">
                       {[...Array(5)].map((_, i) => (
-                        <div key={i} className={`w-3 h-3 rounded-full ${i < 2 ? 'bg-orange-500' : 'bg-gray-200'}`}></div>
+                        <div key={i} className={`w-3 h-3 rounded-full ${i < 3 ? 'bg-orange-500' : 'bg-gray-200'}`}></div>
                       ))}
                     </div>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">Git</span>
+                    <span className="text-gray-600">Docker</span>
                     <div className="flex space-x-1">
                       {[...Array(5)].map((_, i) => (
-                        <div key={i} className={`w-3 h-3 rounded-full ${i < 3 ? 'bg-orange-500' : 'bg-gray-200'}`}></div>
+                        <div key={i} className={`w-3 h-3 rounded-full ${i < 2 ? 'bg-orange-500' : 'bg-gray-200'}`}></div>
                       ))}
                     </div>
                   </div>
