@@ -1,12 +1,19 @@
+<div align="center">
+
 # 🌟 김지민 개인 포트폴리오 웹사이트
 
+![GitHub Actions](https://img.shields.io/github/actions/workflow/status/Gogimin/01/ci-cd.yml?style=for-the-badge&logo=github&label=CI/CD)
 ![Next.js](https://img.shields.io/badge/Next.js-15.5.3-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
-> **AI/ML 엔지니어 김지민의 개인 포트폴리오 웹사이트**
-> 수학과 학생이자 AI/데이터 분야 개발자 지망생의 포트폴리오 사이트
+### 🎯 AI/ML 엔지니어 김지민의 개인 포트폴리오 웹사이트
+#### 수학적 사고로 분석하고, AI 기술로 구현하며, 사용자 가치를 창출하는 개발자
+
+[🚀 **라이브 데모**](https://kimjimin-portfolio.netlify.app) | [📱 **GitHub**](https://github.com/Gogimin) | [📧 **Contact**](mailto:kzm0502@naver.com)
+
+</div>
 
 ## 🎯 프로젝트 소개
 
@@ -31,12 +38,37 @@
 ### Development & Deployment
 - **Package Manager**: npm
 - **Build**: Next.js Static Site Generation (SSG)
+- **CI/CD**: GitHub Actions
 - **Deployment**: Netlify Platform
 - **Version Control**: Git & GitHub
 
 ## 📱 라이브 데모
 
-🚀 **배포 URL**: [https://portfolio-website-7n2so43hl-gogimins-projects.vercel.app](https://portfolio-website-7n2so43hl-gogimins-projects.vercel.app)
+🚀 **배포 URL**: [https://kimjimin-portfolio.netlify.app](https://kimjimin-portfolio.netlify.app)
+
+## ⚡ CI/CD 파이프라인
+
+이 프로젝트는 **GitHub Actions**를 통한 완전 자동화된 CI/CD 파이프라인을 구축했습니다:
+
+### 🔄 자동화 워크플로우
+```mermaid
+graph LR
+    A[코드 Push] --> B[GitHub Actions]
+    B --> C[ESLint 검사]
+    B --> D[TypeScript 체크]
+    B --> E[빌드 테스트]
+    C --> F[모든 검사 통과]
+    D --> F
+    E --> F
+    F --> G[Netlify 자동 배포]
+    G --> H[🚀 배포 완료]
+```
+
+### ✅ 자동화된 검증 과정
+- **코드 품질**: ESLint를 통한 코드 스타일 검사
+- **타입 안전성**: TypeScript 컴파일 검증
+- **빌드 검증**: Next.js 프로덕션 빌드 테스트
+- **자동 배포**: main 브랜치 푸시 시 Netlify 배포
 
 ## 🚀 로컬 개발 시작하기
 
@@ -125,30 +157,69 @@ portfolio-website/
 
 ## 📊 성과 지표
 
-- ✅ **24/24 개발 태스크 완료**
-- 🏆 **고용노동부장관상 수상 프로젝트** 포함
-- 📈 **SEO 점수 90+** 달성
-- 🚀 **페이지 로딩 속도 최적화**
-- 📱 **모바일 친화적 디자인** 완료
+<div align="center">
+
+| 항목 | 성과 | 상태 |
+|------|------|------|
+| 🛠️ **개발 태스크** | 24/24 완료 | ✅ |
+| 🏆 **수상 경력** | 고용노동부장관상 | ✅ |
+| 📈 **SEO 점수** | 90+ 달성 | ✅ |
+| ⚡ **로딩 속도** | 최적화 완료 | ✅ |
+| 📱 **반응형 디자인** | 모든 기기 지원 | ✅ |
+| 🔄 **CI/CD** | 자동화 파이프라인 | ✅ |
+
+</div>
 
 ## 👤 개발자 정보
 
-**김지민** (Kim Jimin)
-- 🎓 경상국립대학교 수학과 (2019.03 - 2025.02)
-- 💼 AI/ML 엔지니어 지망
-- 🏆 SK네트웍스 Family AI 캠프 참여 (2025.03 - 2025.09)
+<div align="center">
 
-### 연락처
-- 📧 Email: kzm0502@naver.com
-- 📱 Phone: +82-10-8652-0705
-- 🔗 GitHub: [Gogimin](https://github.com/Gogimin)
-- 📷 Instagram: [@kimzimmin](https://www.instagram.com/kimzimmin/)
-- 📝 Blog: [네이버 블로그](https://blog.naver.com/kzm0502)
+### 👋 김지민 (Kim Jimin)
 
-## 📄 라이선스
+<table>
+<tr>
+<td align="center" width="50%">
+<strong>🎓 학력</strong><br>
+경상국립대학교 수학과<br>
+<em>2019.03 - 2025.02</em>
+</td>
+<td align="center" width="50%">
+<strong>💼 목표</strong><br>
+AI/ML 엔지니어<br>
+<em>수학적 사고 + AI 기술</em>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
+<strong>🏆 현재 활동</strong><br>
+SK네트웍스 Family AI 캠프 참여<br>
+<em>2025.03 - 2025.09</em>
+</td>
+</tr>
+</table>
 
-© 2025 Kim Jimin. All rights reserved.
+### 📞 연락처
+
+[![Email](https://img.shields.io/badge/Email-kzm0502@naver.com-red?style=flat-square&logo=naver)](mailto:kzm0502@naver.com)
+[![Phone](https://img.shields.io/badge/Phone-+82--10--8652--0705-green?style=flat-square&logo=phone)](tel:+821086520705)
+[![GitHub](https://img.shields.io/badge/GitHub-Gogimin-black?style=flat-square&logo=github)](https://github.com/Gogimin)
+[![Instagram](https://img.shields.io/badge/Instagram-@kimzimmin-E4405F?style=flat-square&logo=instagram)](https://www.instagram.com/kimzimmin/)
+[![Blog](https://img.shields.io/badge/Blog-네이버블로그-03C75A?style=flat-square&logo=naver)](https://blog.naver.com/kzm0502)
+
+</div>
 
 ---
 
+<div align="center">
+
+## 📄 라이선스
+
+**© 2025 Kim Jimin. All rights reserved.**
+
+### 💭 개발 철학
 *"수학적 사고로 분석하고, AI 기술로 구현하며, 사용자 가치를 창출하는 개발자"*
+
+[![GitHub Actions](https://img.shields.io/badge/Powered%20by-GitHub%20Actions-blue?style=flat-square&logo=github-actions)](https://github.com/features/actions)
+[![Netlify](https://img.shields.io/badge/Deployed%20on-Netlify-00C7B7?style=flat-square&logo=netlify)](https://netlify.com)
+
+</div>
