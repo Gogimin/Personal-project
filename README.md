@@ -2,7 +2,7 @@
 
 # 🌟 김지민 개인 포트폴리오 웹사이트
 
-![GitHub Actions](https://img.shields.io/github/actions/workflow/status/Gogimin/01/ci-cd.yml?style=for-the-badge&logo=github&label=CI/CD)
+![GitHub Actions](https://img.shields.io/github/actions/workflow/status/Gogimin/Personal-project/ci-cd.yml?style=for-the-badge&logo=github&label=CI/CD)
 ![Next.js](https://img.shields.io/badge/Next.js-15.5.3-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
